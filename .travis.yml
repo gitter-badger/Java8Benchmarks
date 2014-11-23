@@ -5,5 +5,12 @@ jdk:
 # setting install to true to avoid unnecessary build
 install: true
 
-script: mvn clean install
-script: java -jar target/benchmarks.jar
+notifications:
+  email:
+    recipients:
+      - andre.behrens@haw-hamburg.de
+      
+# Scripts
+script: 
+- mvn clean install
+- java -jar target/benchmarks.jar
