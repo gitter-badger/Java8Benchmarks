@@ -9,5 +9,5 @@ notifications:
       
 # Scripts
 script: 
-- mvn -Dmaven.test.failure.ignore=true --fail-at-end clean install
+- mvn clean install
 - java -jar target/benchmarks.jar
