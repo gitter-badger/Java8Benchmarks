@@ -1,3 +1,5 @@
+https://travis-ci.org/serious6/Java8Benchmarks.svg
+
 Java8-Benchmark
 ===============
 
