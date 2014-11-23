@@ -2,6 +2,9 @@ language: java
 jdk:
   - oraclejdk8
 
+# setting install to true to avoid unnecessary build
+install: true
+
 notifications:
   email:
     recipients:
@@ -10,5 +13,4 @@ notifications:
 # Scripts
 script: 
 - mvn clean install
-- mvn test
 - java -jar target/benchmarks.jar
