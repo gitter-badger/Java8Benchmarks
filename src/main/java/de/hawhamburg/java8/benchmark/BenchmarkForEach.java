@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 @State(Scope.Benchmark)
 public class BenchmarkForEach {
 
-    @Param({ "1", "100", "10000", "1000000", "100000000"})
+    @Param({ "1", "100", "10000", "1000000"})
     private int size;
 
     private List<Integer> testTarget;
