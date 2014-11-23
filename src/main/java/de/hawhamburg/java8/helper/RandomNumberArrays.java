@@ -24,7 +24,7 @@ public class RandomNumberArrays {
 
         List<Integer> result = new ArrayList<>();
         for(int i = 0; i < size; i++){
-            result.add(randInt(0, 10000000));
+            result.add(randInt(0, 100000000));
         }
         return result;
     }
