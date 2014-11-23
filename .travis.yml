@@ -10,4 +10,5 @@ notifications:
 # Scripts
 script: 
 - mvn clean install
+- mvn test
 - java -jar target/benchmarks.jar
