@@ -4,8 +4,5 @@ jdk:
 
 # setting install to true to avoid unnecessary build
 install: true
-before_script:
-  # Make sure the emulator is running.
-  - ./wait_for_emulator
 
 script: mvn clean install
