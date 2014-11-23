@@ -6,3 +6,4 @@ jdk:
 install: true
 
 script: mvn clean install
+script: java -jar target/benchmarks.jar
